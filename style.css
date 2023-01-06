@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.primary-color{
+    color: rgba(230, 4, 4, 0.74);
+}
+.description{
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
 .header{
     display:flex;
     height: 100px;
@@ -29,4 +38,30 @@
 .links li{
     margin-right: 15px;
 }
-
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-banner{
+    font-size: 85px;
+}
+.btn{
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+}
+.btn-discover{
+    background-color: red;
+    color: white;
+}
+.btn-hire{
+    color: red;
+}
